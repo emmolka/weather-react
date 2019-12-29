@@ -15,7 +15,7 @@ const MainSection = props => {
   return (
     <>
       {props.showComponent ? (
-        <div className="wrapper">
+        <>
           <div className="main-section">
             <div className="left-side">
               <div className="icon-and-sign">
@@ -24,7 +24,7 @@ const MainSection = props => {
                 <p>{props.weatherName}</p>
               </div>
               <div className="main-temperature">
-                <p>{props.temperature}</p>
+                <p>{props.temperature}°C</p>
               </div>
             </div>
 
@@ -34,7 +34,7 @@ const MainSection = props => {
               <p className="minimal-temperature">{props.maxTemperature}</p>
             </div>
           </div>
-        </div>
+        </>
       ) : (
         <></>
       )}

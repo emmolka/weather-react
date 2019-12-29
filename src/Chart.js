@@ -68,13 +68,13 @@ const Chart = props => {
     }
   };
   return (
-    <div className="wrapper">
+    <>
       {props.showComponent ? (
         <Line data={data} height={500} width={700} options={options} />
       ) : (
         <></>
       )}
-    </div>
+    </>
   );
 };
 

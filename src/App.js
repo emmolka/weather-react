@@ -1,13 +1,14 @@
-import React from "react";
-import Main from "./Main.js";
-import "./App.css";
+import React from 'react';
+import Main from './Main.js';
+import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <Main />
-    </div>
-  );
+	return (
+		<>
+		
+			<Main />
+		</>
+	);
 }
 
 export default App;

@@ -3,7 +3,7 @@ import DetailsTop from "./DetailsTop";
 import DetailsBottom from "./DetailsBottom";
 const Details = props => {
   return (
-    <div className="wrapper">
+    <>
       <DetailsTop
         temperature={props.temperature}
         humidity={props.humidity}
@@ -18,7 +18,7 @@ const Details = props => {
         date={props.date}
         icons={props.icons}
       />
-    </div>
+    <>
   );
 };
 

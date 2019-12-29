@@ -11,16 +11,31 @@ body {
 	text-decoration: none;
 	font-family: "Roboto", sans-serif;
 }
+.bg-image {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 998;
+	height: 100vh;
+	width: 100vw;
+	background-color: #7bb4df;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+}
 .wrapper {
 	width: 100%;
 	max-width: 300px;
-	background-color: #5594b3;
+	z-index: 999;
 }
 .main-wrapper {
 	display: flex;
-	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	margin-top: 50px;
 }
 
 header {
@@ -28,7 +43,6 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	width: 100%;
-	background-color: #5594b3;
 	padding-top: 14px;
 }
 
@@ -46,7 +60,7 @@ header {
 .main-section {
 	display: flex;
 	justify-content: space-around;
-	background-color: #5594b3;
+
 	padding: 50px 0 30px 0;
 }
 .icon-and-sign {
@@ -71,6 +85,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
+	align-items: center;
 	padding-bottom: 18px;
 }
 .maximal-temperature {
@@ -152,25 +167,8 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin: 10px 0;
+	margin: 10px;
 }
-
-.search-input-and-button input {
-	margin-top: 10px;
-	color: grey;
-	padding: 0.5rem;
-	border: none;
-}
-.search-input-and-button button {
-	width: 50px;
-	color: white;
-	padding: 0.5rem;
-	cursor: pointer;
-	background-color: #4b84a0b0;
-	border: #4b84a0b0;
-}
-@media (min-width: 300px) {
-	.main-temperature {
-		font-size: 400%;
-	}
+.search-section p {
+	margin-bottom: 10px;
 }

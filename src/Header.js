@@ -4,7 +4,7 @@ import { IoMdMenu, IoMdAdd } from "react-icons/io";
 
 const Header = props => {
   return (
-    <div className="wrapper">
+    <>
       <header>
         <div className="icon-section">
           <IoMdMenu className="menu-icon" onClick={props.onMenuClick} />
@@ -18,7 +18,7 @@ const Header = props => {
           <IoMdAdd className="plus-icon" onClick={props.onPlusClick} />
         </div>
       </header>
-    </div>
+    </>
   );
 };
 
