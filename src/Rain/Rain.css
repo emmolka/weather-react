@@ -39,7 +39,7 @@
 	user-select: none;
 	cursor: default;
 	-webkit-animation-name: rain-drops-fall;
-	/* -webkit-animation-duration: 10s, 3s; */
+	-webkit-animation-duration: 7s, 1s;
 	-webkit-animation-timing-function: linear, ease-in-out;
 	-webkit-animation-iteration-count: infinite, infinite;
 	-webkit-animation-play-state: running, running;

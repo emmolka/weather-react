@@ -10,13 +10,13 @@ import DetailsTop from './DetailsTop';
 import DetailsBottom from './DetailsBottom';
 import LoaderSection from './LoaderSection';
 import Menu from './Menu';
-import Rain from './Rain/Rain';
-import locations from './locations';
-import Snow from './Snow/Snow';
-import rain from './COLORS/rain.jpg';
-import snow from './COLORS/winter.jpg';
-import cloudsImg from './COLORS/clouds.jpeg';
-import clearImg from './COLORS/526070.jpg';
+import Rain from '../Rain/Rain';
+import locations from '../locations';
+import Snow from '../Snow/Snow';
+import rain from '../pictures/rain.jpg';
+import snow from '../pictures/winter.jpg';
+import cloudsImg from '../pictures/clouds.jpeg';
+import clearImg from '../pictures/526070.jpg';
 
 const cities = locations.sort();
 

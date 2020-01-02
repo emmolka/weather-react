@@ -2,7 +2,7 @@ import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import Button from '@material-ui/core/Button';
-import locations from './locations';
+import locations from '../locations';
 const cities = locations.sort();
 
 const Menu = (props) => {

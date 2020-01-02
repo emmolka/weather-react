@@ -18,7 +18,7 @@ const Details = props => {
         date={props.date}
         icons={props.icons}
       />
-    <>
+    </>
   );
 };
 
